@@ -1,0 +1,70 @@
+body {
+	padding: 2rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+	background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+	color: #333;
+}
+
+/* Headings */
+h1 {
+	font-size: 24px;
+	margin-top: 0;
+	color: #0d47a1; /* Deep blue */
+}
+
+/* Paragraphs */
+p {
+	color: #37474f; /* Dark gray-blue */
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	line-height: 1.6;
+}
+
+/* Card Styles */
+.card {
+	max-width: 620px;
+	margin: 2rem auto;
+	padding: 20px;
+	border-radius: 16px;
+	background-color: #ffffff;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+	border-left: 5px solid #43a047; /* Green accent */
+	transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+	transform: translateY(-4px);
+}
+
+/* Last paragraph in card */
+.card p:last-child {
+	margin-bottom: 0;
+}
+
+/* Buttons (optional enhancement) */
+.button {
+	background-color: #fdd835; /* Yellow */
+	color: #000;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #fbc02d;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+	body {
+		padding: 1rem;
+	}
+
+	.card {
+		padding: 16px;
+	}
+}
